@@ -5,5 +5,22 @@ h1{
   font-size: 50px;
 }
 .orange-span{
-  color: orange;
+  color: #00e1ff;
+}
+section{
+  display: flex;
+}
+.div-width{
+  width: 50%;
+  padding-left: 5%;
+}
+.div-width img{
+  width: 85%;
+}
+.hire-button{
+  text-decoration: none;
+  background-color: #00e1ff;
+  padding: 10px 30px;
+  border-radius: 5px;
+  color: black;
 }
