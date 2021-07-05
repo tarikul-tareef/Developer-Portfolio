@@ -10,19 +10,20 @@ h1{
 }
 section{
   display: flex;
+  padding-bottom: 150px;
 }
 .div-width{
-  width: 50%;
-  margin-left: 2px;
-  padding-left: 5%;
+  width: 40%;
+  margin-left: 5%;
+  padding-left: 2%;
 }
 .div-width img{
-  width: 85%;
+  width: 90%;
 }
-.hire-button{
+.anchor-button{
   text-decoration: none;
-  background-image: linear-gradient(#00e1ff, #74ee7aef);
-  padding: 10px 30px;
+  background-image: linear-gradient(45deg, #00e1ff, #74ee7aef);
+  padding: 10px 40px;
   border-radius: 5px;
   color: black;
   font-weight: 700;
@@ -30,4 +31,9 @@ section{
 .top-banner{
   background-image: url(images/top-banner.png);
   background-repeat: no-repeat;
+}
+.dream_big{
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
 }
