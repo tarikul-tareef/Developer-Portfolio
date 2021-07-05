@@ -2,13 +2,16 @@ body{
   font-family: 'Merriweather', serif;
   margin: 0;
 }
+div p{
+  text-align: justify;
+}
 h1{
   font-size: 50px;
 }
 .orange-span{
   color: #00e1ff;
 }
-section{
+.flexible-container{
   display: flex;
   padding-bottom: 150px;
 }
