@@ -1,5 +1,6 @@
 body{
   font-family: 'Merriweather', serif;
+  margin: 0;
 }
 h1{
   font-size: 50px;
@@ -12,6 +13,7 @@ section{
 }
 .div-width{
   width: 50%;
+  margin-left: 2px;
   padding-left: 5%;
 }
 .div-width img{
@@ -24,4 +26,8 @@ section{
   border-radius: 5px;
   color: black;
   font-weight: 700;
+}
+.top-banner{
+  background-image: url(images/top-banner.png);
+  background-repeat: no-repeat;
 }
